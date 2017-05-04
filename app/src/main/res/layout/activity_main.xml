@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linear_layout_background_color"
+    android:orientation="vertical"
+    tools:context="ru.webdyne.oyashinfo.MainActivity">
+
+    <Button
+        android:id="@+id/buttonAds"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/button_ads_text"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/buttonEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/button_emergency_text"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/buttonEducation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/button_education_text"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/buttonCulture"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/button_culture_text"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/buttonSport"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/button_sport_text"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/buttonTrade"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/button_trade_text"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/buttonTransport"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/button_transport_text"
+        android:textSize="@dimen/button_text_size" />
+
+</LinearLayout>
