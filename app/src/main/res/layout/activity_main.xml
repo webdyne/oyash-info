@@ -13,8 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/material_purple_900"
+        android:background="@color/colorPrimary"
         android:text="@string/button_information_text"
+        android:textColor="@color/red_accent_a_400"
         android:textSize="@dimen/button_text_size" />
 
     <Button
@@ -22,8 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/material_pink_500"
+        android:background="@color/colorPrimary"
         android:text="@string/button_emergency_text"
+        android:textColor="@color/cyan_accent_400"
         android:textSize="@dimen/button_text_size" />
 
     <Button
@@ -31,8 +33,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/material_green_600"
+        android:background="@color/colorPrimary"
         android:text="@string/button_education_text"
+        android:textColor="@color/yelloe_accent_400"
         android:textSize="@dimen/button_text_size" />
 
     <Button
@@ -40,8 +43,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/material_light_blue_800"
+        android:background="@color/colorPrimary"
         android:text="@string/button_culture_text"
+        android:textColor="@color/purple_accent_400"
         android:textSize="@dimen/button_text_size" />
 
     <Button
@@ -49,8 +53,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/material_deep_orange_600"
+        android:background="@color/colorPrimary"
         android:text="@string/button_sport_text"
+        android:textColor="@color/deep_orange_accent_400"
         android:textSize="@dimen/button_text_size" />
 
     <Button
@@ -58,8 +63,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/material_purple_500"
+        android:background="@color/colorPrimary"
         android:text="@string/button_trade_text"
+        android:textColor="@color/light_green_accent_400"
         android:textSize="@dimen/button_text_size" />
 
     <Button
@@ -67,8 +73,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/material_blue_grey_600"
+        android:background="@color/colorPrimary"
         android:text="@string/button_transport_text"
+        android:textColor="@color/deep_purple_accent_400"
         android:textSize="@dimen/button_text_size" />
 
 </LinearLayout>

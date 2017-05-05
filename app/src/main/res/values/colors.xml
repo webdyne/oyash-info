@@ -11,4 +11,15 @@
     <color name="material_light_blue_800">#0277bd</color>
     <color name="material_deep_orange_600">#f4511e</color>
     <color name="material_purple_500">#9c27b0</color>
+    <color name="red_accent_a_400">#ff1744</color>
+    <color name="cyan_accent_400">#00e5ff</color>
+    <color name="cyan_accent_200">#18ffff</color>
+    <color name="red_accent_a_200">#ff5252</color>
+    <color name="red_accent_200">#ff5252</color>
+    <color name="red_accent_400">#ff1744</color>
+    <color name="yelloe_accent_400">#ffea00</color>
+    <color name="purple_accent_400">#d500f9</color>
+    <color name="deep_orange_accent_400">#ff3d00</color>
+    <color name="light_green_accent_400">#76ff03</color>
+    <color name="deep_purple_accent_400">#651fff</color>
 </resources>
