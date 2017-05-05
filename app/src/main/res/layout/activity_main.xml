@@ -9,11 +9,12 @@
     tools:context="ru.webdyne.oyashinfo.MainActivity">
 
     <Button
-        android:id="@+id/buttonAds"
+        android:id="@+id/buttonInformation"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="@string/button_ads_text"
+        android:background="@color/material_purple_900"
+        android:text="@string/button_information_text"
         android:textSize="@dimen/button_text_size" />
 
     <Button
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/material_pink_500"
         android:text="@string/button_emergency_text"
         android:textSize="@dimen/button_text_size" />
 
@@ -29,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/material_green_600"
         android:text="@string/button_education_text"
         android:textSize="@dimen/button_text_size" />
 
@@ -37,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/material_light_blue_800"
         android:text="@string/button_culture_text"
         android:textSize="@dimen/button_text_size" />
 
@@ -45,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/material_deep_orange_600"
         android:text="@string/button_sport_text"
         android:textSize="@dimen/button_text_size" />
 
@@ -53,6 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/material_purple_500"
         android:text="@string/button_trade_text"
         android:textSize="@dimen/button_text_size" />
 
@@ -61,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/material_blue_grey_600"
         android:text="@string/button_transport_text"
         android:textSize="@dimen/button_text_size" />
 

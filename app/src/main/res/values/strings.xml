@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">OyashInfo</string>
-    <string name="button_ads_text">Объявления</string>
+    <string name="button_information_text">Информация</string>
     <string name="button_emergency_text">Экстренные службы</string>
     <string name="button_culture_text">Культура</string>
     <string name="button_trade_text">Торговля</string>
