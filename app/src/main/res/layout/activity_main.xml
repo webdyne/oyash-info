@@ -1,81 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/linear_layout_background_color"
-    android:orientation="vertical"
-    tools:context="ru.webdyne.oyashinfo.MainActivity">
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:background="@color/linear_layout_background_color"
+              android:orientation="vertical"
+              tools:context="ru.webdyne.oyashinfo.MainActivity">
 
-    <Button
-        android:id="@+id/buttonInformation"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/button_border_settings"
-        android:text="@string/button_information_text"
-        android:textColor="@color/yellow_accent_400"
-        android:textSize="@dimen/button_text_size" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/buttonHealth"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/button_border_settings"
-        android:text="@string/button_health_text"
-        android:textColor="@color/red_accent_400"
-        android:textSize="@dimen/button_text_size" />
+        <Button
+            android:id="@+id/buttonInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_information_text"
+            android:textSize="@dimen/button_text_size"/>
 
-    <Button
-        android:id="@+id/buttonEducation"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/button_border_settings"
-        android:text="@string/button_education_text"
-        android:textColor="@color/light_green_accent_400"
-        android:textSize="@dimen/button_text_size" />
+        <Button
+            android:id="@+id/buttonRealty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttot_realty_text"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/buttonCulture"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/button_border_settings"
-        android:text="@string/button_culture_text"
-        android:textColor="@color/cyan_accent_400"
-        android:textSize="@dimen/button_text_size" />
 
-    <Button
-        android:id="@+id/buttonSport"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/button_border_settings"
-        android:text="@string/button_sport_text"
-        android:textColor="@color/deep_orange_accent_400"
-        android:textSize="@dimen/button_text_size" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/buttonTrade"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/button_border_settings"
-        android:text="@string/button_trade_text"
-        android:textColor="@color/purple_accent_400"
-        android:textSize="@dimen/button_text_size" />
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_education_text"
+            android:textSize="@dimen/button_text_size"/>
 
-    <Button
-        android:id="@+id/buttonTransport"
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_health_text"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/button_border_settings"
-        android:text="@string/button_transport_text"
-        android:textColor="@color/deep_purple_accent_400"
-        android:textSize="@dimen/button_text_size" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_sport_text"
+            android:textSize="@dimen/button_text_size"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_culture_text"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_trade_text"
+            android:textSize="@dimen/button_text_size"/>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_transport_text"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_leisure_text"
+            android:textSize="@dimen/button_text_size"/>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_services_text"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            android:textSize="@dimen/button_text_size"/>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
 
 </LinearLayout>

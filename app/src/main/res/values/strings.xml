@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">OyashInfo</string>
     <string name="button_information_text">Информация</string>
-    <string name="button_health_text">Здравоохранение</string>
+    <string name="button_health_text">Здоровье</string>
     <string name="button_culture_text">Культура</string>
     <string name="button_trade_text">Торговля</string>
     <string name="button_sport_text">Спорт</string>
     <string name="button_education_text">Образование</string>
     <string name="button_transport_text">Транспорт</string>
+    <string name="buttot_realty_text">Недвижимость</string>
+    <string name="button_services_text">Услуги</string>
+    <string name="button_leisure_text">Досуг</string>
 </resources>
