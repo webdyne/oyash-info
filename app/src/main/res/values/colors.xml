@@ -10,6 +10,11 @@
     <color name="purple_accent_400">#d500f9</color>
     <color name="deep_orange_accent_400">#ff3d00</color>
     <color name="light_green_accent_400">#76ff03</color>
-    <color name="deep_purple_accent_400">#651fff</color>
+    <color name="deep_purple_accent_400">#00e676</color>
     <color name="button_dark">#151515</color>
+    <color name="transport_color">#e91e63</color>
+    <color name="pink_accent_400">#f50057</color>
+    <color name="indigo_accent_200">#536dfe</color>
+    <color name="green_accent_400">#00e676</color>
+    <color name="deep_purple_accent_700">#6200ea</color>
 </resources>
